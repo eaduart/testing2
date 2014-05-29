@@ -7,12 +7,18 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[])
+using namespace std;
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+	int t;
+    cin >> t;
+    
+    cout << t << " ";
+    if (100 < t)
+		cout << "too hot"<< endl;
+	else if (30 > t)
+		cout << "too cold"<< endl;
+	
+else
+		cout << "just right."<< endl;
 }
-
